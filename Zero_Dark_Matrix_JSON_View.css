@@ -1,0 +1,70 @@
+body {
+  background-color: #2F2F2F;
+  color: #CDCDCD;
+  font-size: 14px;
+  white-space: pre !important;
+  font-family: "Source Code Pro", monospace;
+}
+
+.property {
+  font-weight: bold;
+}
+
+.type-null {
+  color: #2aa198;
+}
+
+.type-boolean {
+  color: #DE8759;
+}
+
+.type-number {
+  color: #d33682;
+}
+
+.type-string {
+  color: #89F5A2;
+}
+a {
+  color: #268bd2;
+}
+.callback-function {
+  color: #cb4b16;
+}
+
+.collapser:after {
+  content: "-";
+  color: #586e75;
+  font-weight: bold;
+}
+
+.collapsed > .collapser:after {
+  content: "+";
+  color: #586e75;
+  font-weight: bold;
+}
+
+.ellipsis:after {
+  content: "\2026";
+}
+
+.collapsible {
+  margin-left: 2em;
+}
+
+.hoverable {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+}
+
+.hovered {
+  background-color: #073642;  
+}
+
+.collapser {
+  padding-right: 10px;
+  padding-left: 6px;
+}
